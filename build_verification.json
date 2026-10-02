@@ -1,0 +1,18 @@
+{
+  "schema": "pp26-g8-romfs-patch-v1",
+  "res10_appended_bytes": 1445038080,
+  "files": {
+    "RES00.RDI": {
+      "bytes": 469504,
+      "sha256": "C783BE3FB4729C2014CA1C78084FC1B9F258922DA89E515D7324985D827EEFCF"
+    },
+    "RES10.RDB": {
+      "bytes": 1623965184,
+      "sha256": "6BD94B0A4C97A48E7D452F633FAB2ED6718A0DF1BCC54D764D3C9A5B4C71400C"
+    }
+  },
+  "replaced_readback_mismatch": [],
+  "untouched_sample": 300,
+  "untouched_sample_changed": [],
+  "result": "PASS"
+}

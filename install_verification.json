@@ -1,0 +1,9 @@
+{
+  "version": "0.9",
+  "result": "PASS",
+  "output_hash_matches": {
+    "RES00.RDI": true,
+    "RES10.RDB": true,
+    "ips": true
+  }
+}

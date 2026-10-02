@@ -1,0 +1,131 @@
+{
+  "version": "0.9",
+  "method": "static release RDB readback; no emulator",
+  "tables": [
+    {
+      "entry": "SEN_CH.CHK",
+      "name_slots": 378,
+      "nonempty": 180,
+      "japanese_remaining": [],
+      "staged_bytes_match": true,
+      "sha256": "4d2dc95c07b48b7e3c12113443e6c2ef8b4e124e5a09ee8d896a40c1ba27e81a"
+    },
+    {
+      "entry": "SEN_EKN.CHK",
+      "name_slots": 585,
+      "nonempty": 394,
+      "japanese_remaining": [],
+      "staged_bytes_match": true,
+      "sha256": "3bf3951647b6eddef1defdc57be612caa14ed52de622cb8be623a958bb896573"
+    },
+    {
+      "entry": "SEN_JPN.CHK",
+      "name_slots": 585,
+      "nonempty": 394,
+      "japanese_remaining": [],
+      "staged_bytes_match": true,
+      "sha256": "850141c14519580ae666ee8cee5c537cb63d848d8cbd6dc756a676cbacc4954c"
+    },
+    {
+      "entry": "SEN_KAN.CHK",
+      "name_slots": 144,
+      "nonempty": 97,
+      "japanese_remaining": [],
+      "staged_bytes_match": true,
+      "sha256": "561ad32efc5ee4b8449efce8f72e3840bd166febb5a3307d42eb85fdd944e30a"
+    },
+    {
+      "entry": "SEN_MAIN.CHK",
+      "name_slots": 1440,
+      "nonempty": 986,
+      "japanese_remaining": [],
+      "staged_bytes_match": true,
+      "sha256": "667a574423eee9c15975219e031eb13322881a15c3167f7afdffaee0e0df8a3b"
+    },
+    {
+      "entry": "SEN_OB.CHK",
+      "name_slots": 1596,
+      "nonempty": 1073,
+      "japanese_remaining": [],
+      "staged_bytes_match": true,
+      "sha256": "e6ff7409bf5c61f42524e55c1476803661e9e784e0117d1741b76cc00731fc85"
+    },
+    {
+      "entry": "SEN_SCS.CHK",
+      "name_slots": 3240,
+      "nonempty": 1885,
+      "japanese_remaining": [],
+      "staged_bytes_match": true,
+      "sha256": "b58c8c3b28ce4d0c20c452b93154c110a872fb4a0c1c169a64d1906fdd6906c2"
+    },
+    {
+      "entry": "SEN_SUB.CHK",
+      "name_slots": 933,
+      "nonempty": 631,
+      "japanese_remaining": [],
+      "staged_bytes_match": true,
+      "sha256": "b1b7e8b32b5be6d2a86c8598d53b07e8f6aa981946c8efade3833b907a6fdc26"
+    },
+    {
+      "entry": "SEN_WBC.CHK",
+      "name_slots": 2973,
+      "nonempty": 1561,
+      "japanese_remaining": [],
+      "staged_bytes_match": true,
+      "sha256": "625ca3db8d3c2d3ec1af5d379c6e4276b85e178af780d2b82265cf599b93d877"
+    },
+    {
+      "entry": "SEN_CHAS.CHK",
+      "name_slots": 390,
+      "nonempty": 189,
+      "japanese_remaining": [],
+      "staged_bytes_match": true,
+      "sha256": "31cc5f4865cb19cbfcbc722d31062003764ab2b01da1700848f2b848e4243e68"
+    },
+    {
+      "entry": "SEN_OBAS.CHK",
+      "name_slots": 504,
+      "nonempty": 340,
+      "japanese_remaining": [],
+      "staged_bytes_match": true,
+      "sha256": "cf6b2234ced862be1922fbfd46758e564283610fa5b7aa0a21a587b4a881225b"
+    },
+    {
+      "entry": "SEN_FRGN.CHK",
+      "name_slots": 3240,
+      "nonempty": 2160,
+      "japanese_remaining": [],
+      "staged_bytes_match": true,
+      "sha256": "2cc88fe1e39264ba3651263f09c1c2b7c9bc8a014e706757533d850b20333245"
+    },
+    {
+      "entry": "SEN_DRFT.CHK",
+      "name_slots": 7200,
+      "nonempty": 4800,
+      "japanese_remaining": [],
+      "staged_bytes_match": true,
+      "sha256": "5d4ad0250037853ff10b1796eb9c4e66673f3616a792f98f7cb2495723a378a9"
+    },
+    {
+      "entry": "SEN_SCS0.CHK",
+      "name_slots": 183,
+      "nonempty": 183,
+      "japanese_remaining": [],
+      "staged_bytes_match": true,
+      "sha256": "4a2bdb0df33aacdeca14a42eb02889a3c8187e9aadb71a23abb7c33b7bf77871"
+    },
+    {
+      "entry": "PLAYERDATA.CHK",
+      "name_slots": 7476,
+      "nonempty": 2595,
+      "japanese_remaining": [],
+      "staged_bytes_match": true,
+      "sha256": "f28c64deaafcf2792a74b63073740ecd85abd205ae250481dff85e84a178344f"
+    }
+  ],
+  "table_count": 15,
+  "name_slots": 30867,
+  "japanese_remaining": 0,
+  "all_staged_bytes_match": true,
+  "scope": "Known SEN player-name tables and PLAYERDATA name fields. This does not assert that every generated/saved name or image-based name is localized."
+}
