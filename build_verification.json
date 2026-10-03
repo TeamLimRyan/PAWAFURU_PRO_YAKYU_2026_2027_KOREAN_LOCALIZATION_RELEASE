@@ -1,18 +1,32 @@
 {
-  "schema": "pp26-g8-romfs-patch-v1",
-  "res10_appended_bytes": 1445038080,
-  "files": {
+  "version": "1.0",
+  "result": "PASS",
+  "nso_verify_errors": 0,
+  "output": {
     "RES00.RDI": {
-      "bytes": 469504,
-      "sha256": "C783BE3FB4729C2014CA1C78084FC1B9F258922DA89E515D7324985D827EEFCF"
+      "size": 469504,
+      "sha256": "3366EF0D5901B0FE82DDD0AEB983781FA4E1EBED01BF920C6AAB6942DC139491"
     },
     "RES10.RDB": {
-      "bytes": 1623965184,
-      "sha256": "6BD94B0A4C97A48E7D452F633FAB2ED6718A0DF1BCC54D764D3C9A5B4C71400C"
+      "size": 1732013056,
+      "sha256": "D55573C5B6493F539AF3F475CF8E357298F55706C0FDB61A96D28DB23C9ACA38"
     }
   },
-  "replaced_readback_mismatch": [],
-  "untouched_sample": 300,
-  "untouched_sample_changed": [],
-  "result": "PASS"
+  "ips": {
+    "name": "FBE18F31CCBD0BFA4247F8A870B6E300BE16889D.ips",
+    "size": 12336321,
+    "sha256": "FD8C27EF2EF4D4459202639871CD63FC8A4837B3C0514C77AF7559CE99F08317"
+  },
+  "replayed_payloads": 2598,
+  "unique_changed_containers": 2587,
+  "layout_replay": "BYTE_EXACT",
+  "name_reading_static_audit": {
+    "text_pointer_slots": 481652,
+    "split_parenthesis_groups": 80,
+    "registered_characters": 49,
+    "modified_display_slots": 67,
+    "modified_handlers": 2,
+    "redundant_literal_readings_remaining": 0
+  },
+  "hardware_acceptance": "hardware_verification.json"
 }

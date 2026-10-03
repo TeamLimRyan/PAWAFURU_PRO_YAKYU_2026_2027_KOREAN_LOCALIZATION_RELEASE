@@ -1,0 +1,25 @@
+{
+  "version": "1.0",
+  "accepted_at": "2026-10-03T15:25:05.892078+00:00",
+  "evidence_type": "OWNER_REPORTED_HARDWARE_VERIFICATION",
+  "owner_statement": "좋아. 1.0 배포하자. 실기 검증 완료했어",
+  "build": "WS10_OWNER_NAMES_FULL_AUDIT_20261004",
+  "files": {
+    "IPS": {
+      "name": "FBE18F31CCBD0BFA4247F8A870B6E300BE16889D.ips",
+      "size": 12336321,
+      "sha256": "FD8C27EF2EF4D4459202639871CD63FC8A4837B3C0514C77AF7559CE99F08317"
+    },
+    "RES00.RDI": {
+      "size": 469504,
+      "sha256": "3366EF0D5901B0FE82DDD0AEB983781FA4E1EBED01BF920C6AAB6942DC139491"
+    },
+    "RES10.RDB": {
+      "size": 1732013056,
+      "sha256": "D55573C5B6493F539AF3F475CF8E357298F55706C0FDB61A96D28DB23C9ACA38"
+    }
+  },
+  "publication_authorized": true,
+  "scope": "Owner accepts the final build after hardware verification. This records owner acceptance, not additional agent-run per-case tests.",
+  "online_scope": "Five historical emulator network cases remain externally blocked; no new online-test claim."
+}

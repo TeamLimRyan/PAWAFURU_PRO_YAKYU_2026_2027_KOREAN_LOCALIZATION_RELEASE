@@ -1,16 +1,15 @@
 {
-  "version": "0.91",
+  "version": "1.0",
   "result": "PASS",
-  "changed_entries": 2587,
-  "identical_to_verified_v09_game_output": true,
+  "entries": 2598,
   "environments": {
-    "install_py312": {
+    "py312": {
       "result": "PASS",
       "python": "3.12.10",
       "zlib": "1.3.1",
       "zstandard": "0.25.0",
       "stage": "complete",
-      "version": "0.91",
+      "version": "1.0",
       "files": {
         "input/RES00.RDI": {
           "expected": {
@@ -45,45 +44,45 @@
         "output/RES00.RDI": {
           "expected": {
             "size": 469504,
-            "sha256": "C783BE3FB4729C2014CA1C78084FC1B9F258922DA89E515D7324985D827EEFCF"
+            "sha256": "3366EF0D5901B0FE82DDD0AEB983781FA4E1EBED01BF920C6AAB6942DC139491"
           },
           "actual": {
             "size": 469504,
-            "sha256": "C783BE3FB4729C2014CA1C78084FC1B9F258922DA89E515D7324985D827EEFCF"
+            "sha256": "3366EF0D5901B0FE82DDD0AEB983781FA4E1EBED01BF920C6AAB6942DC139491"
           }
         },
         "output/RES10.RDB": {
           "expected": {
-            "size": 1623965184,
-            "sha256": "6BD94B0A4C97A48E7D452F633FAB2ED6718A0DF1BCC54D764D3C9A5B4C71400C"
+            "size": 1732013056,
+            "sha256": "D55573C5B6493F539AF3F475CF8E357298F55706C0FDB61A96D28DB23C9ACA38"
           },
           "actual": {
-            "size": 1623965184,
-            "sha256": "6BD94B0A4C97A48E7D452F633FAB2ED6718A0DF1BCC54D764D3C9A5B4C71400C"
+            "size": 1732013056,
+            "sha256": "D55573C5B6493F539AF3F475CF8E357298F55706C0FDB61A96D28DB23C9ACA38"
           }
         },
         "output/IPS": {
           "expected": {
             "name": "FBE18F31CCBD0BFA4247F8A870B6E300BE16889D.ips",
-            "sha256": "2A765836F89EEB05C932CB735E88208F9B52DB6ADF75C0E1E4D840107579287D",
-            "size": 12333838
+            "size": 12336321,
+            "sha256": "FD8C27EF2EF4D4459202639871CD63FC8A4837B3C0514C77AF7559CE99F08317"
           },
           "actual": {
-            "size": 12333838,
-            "sha256": "2A765836F89EEB05C932CB735E88208F9B52DB6ADF75C0E1E4D840107579287D"
+            "size": 12336321,
+            "sha256": "FD8C27EF2EF4D4459202639871CD63FC8A4837B3C0514C77AF7559CE99F08317"
           }
         }
       },
-      "entry": "VS_TIME.CHK",
-      "entries_done": 2587
+      "entry": "SCS_TOP_2026_SSPJ.CHK",
+      "entries_done": 2598
     },
-    "install_py314": {
+    "py314": {
       "result": "PASS",
       "python": "3.14.0",
       "zlib": "1.3.1.zlib-ng",
       "zstandard": "0.25.0",
       "stage": "complete",
-      "version": "0.91",
+      "version": "1.0",
       "files": {
         "input/RES00.RDI": {
           "expected": {
@@ -118,43 +117,44 @@
         "output/RES00.RDI": {
           "expected": {
             "size": 469504,
-            "sha256": "C783BE3FB4729C2014CA1C78084FC1B9F258922DA89E515D7324985D827EEFCF"
+            "sha256": "3366EF0D5901B0FE82DDD0AEB983781FA4E1EBED01BF920C6AAB6942DC139491"
           },
           "actual": {
             "size": 469504,
-            "sha256": "C783BE3FB4729C2014CA1C78084FC1B9F258922DA89E515D7324985D827EEFCF"
+            "sha256": "3366EF0D5901B0FE82DDD0AEB983781FA4E1EBED01BF920C6AAB6942DC139491"
           }
         },
         "output/RES10.RDB": {
           "expected": {
-            "size": 1623965184,
-            "sha256": "6BD94B0A4C97A48E7D452F633FAB2ED6718A0DF1BCC54D764D3C9A5B4C71400C"
+            "size": 1732013056,
+            "sha256": "D55573C5B6493F539AF3F475CF8E357298F55706C0FDB61A96D28DB23C9ACA38"
           },
           "actual": {
-            "size": 1623965184,
-            "sha256": "6BD94B0A4C97A48E7D452F633FAB2ED6718A0DF1BCC54D764D3C9A5B4C71400C"
+            "size": 1732013056,
+            "sha256": "D55573C5B6493F539AF3F475CF8E357298F55706C0FDB61A96D28DB23C9ACA38"
           }
         },
         "output/IPS": {
           "expected": {
             "name": "FBE18F31CCBD0BFA4247F8A870B6E300BE16889D.ips",
-            "sha256": "2A765836F89EEB05C932CB735E88208F9B52DB6ADF75C0E1E4D840107579287D",
-            "size": 12333838
+            "size": 12336321,
+            "sha256": "FD8C27EF2EF4D4459202639871CD63FC8A4837B3C0514C77AF7559CE99F08317"
           },
           "actual": {
-            "size": 12333838,
-            "sha256": "2A765836F89EEB05C932CB735E88208F9B52DB6ADF75C0E1E4D840107579287D"
+            "size": 12336321,
+            "sha256": "FD8C27EF2EF4D4459202639871CD63FC8A4837B3C0514C77AF7559CE99F08317"
           }
         }
       },
-      "entry": "VS_TIME.CHK",
-      "entries_done": 2587
+      "entry": "SCS_TOP_2026_SSPJ.CHK",
+      "entries_done": 2598
     }
   },
   "regression_tests": {
     "python_3_12": "7/7 PASS",
     "python_3_14": "7/7 PASS"
   },
-  "unicode_space_output_path": "PASS (Python 3.14)",
-  "runtime_scope": "Same game bytes as v0.9; no new game runtime claim"
+  "unicode_space_output_path": "PASS",
+  "documented_removal": "PASS; only three patch files removed, unrelated file preserved",
+  "exact_owner_approved_game_bytes": true
 }
