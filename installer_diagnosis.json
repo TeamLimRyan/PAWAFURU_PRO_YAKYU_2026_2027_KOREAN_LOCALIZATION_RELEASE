@@ -1,0 +1,75 @@
+{
+  "result": "REPRODUCED",
+  "python": "3.14.0",
+  "zlib": "1.3.1.zlib-ng",
+  "source_hashes_match": {
+    "RES00.RDI": true,
+    "RES00.RDB": true,
+    "RES10.RDB": true
+  },
+  "outputs": {
+    "RES00.RDI": {
+      "expected": {
+        "size": 469504,
+        "sha256": "C783BE3FB4729C2014CA1C78084FC1B9F258922DA89E515D7324985D827EEFCF"
+      },
+      "actual": {
+        "size": 469504,
+        "sha256": "46CD53EF654ED84366D46F449EF441F274BD7CF6BE9CCE4E82F6EF3E9A5436E2"
+      }
+    },
+    "RES10.RDB": {
+      "expected": {
+        "size": 1623965184,
+        "sha256": "6BD94B0A4C97A48E7D452F633FAB2ED6718A0DF1BCC54D764D3C9A5B4C71400C"
+      },
+      "actual": {
+        "size": 1619024896,
+        "sha256": "0585B5663C05962B4D475359151B8C40AC9D6E073BD789479DA147D10DBFA9E3"
+      }
+    }
+  },
+  "samples": [
+    {
+      "name": "APPSELECT.CHK",
+      "body_matches_expected": true,
+      "stored_bytes_match": false,
+      "stored_size_build": 852284,
+      "stored_size_py314": 846815,
+      "local_recompression_matches_py314": true
+    },
+    {
+      "name": "ARR_STAGE.CHK",
+      "body_matches_expected": true,
+      "stored_bytes_match": false,
+      "stored_size_build": 85419,
+      "stored_size_py314": 85282,
+      "local_recompression_matches_py314": true
+    },
+    {
+      "name": "ARR_UNION.CHK",
+      "body_matches_expected": true,
+      "stored_bytes_match": false,
+      "stored_size_build": 175126,
+      "stored_size_py314": 175389,
+      "local_recompression_matches_py314": true
+    },
+    {
+      "name": "ATL_CHART_RANK_UPDOWN.CHK",
+      "body_matches_expected": true,
+      "stored_bytes_match": false,
+      "stored_size_build": 481629,
+      "stored_size_py314": 480165,
+      "local_recompression_matches_py314": true
+    },
+    {
+      "name": "ATL_MEMBER.CHK",
+      "body_matches_expected": true,
+      "stored_bytes_match": false,
+      "stored_size_build": 97716,
+      "stored_size_py314": 97838,
+      "local_recompression_matches_py314": true
+    }
+  ],
+  "cause": "v0.9 recompresses bodies; zlib-ng produces different streams and relocation offsets from zlib 1.3.1."
+}

@@ -1,6 +1,19 @@
-# 파워프로 2026-2027 한국어 패치 v0.9
+# 파워프로 2026-2027 한국어 패치 v0.91
 
 「パワフルプロ野球2026-2027」(Nintendo Switch) 일본판 한국어 패치입니다.
+
+
+## v0.9 설치 오류를 겪었다면
+
+`RES00.RDI` 예상 불일치 오류는 Python 압축 구현 차이로 발생할 수 있었습니다. v0.91에서 수정했습니다.
+
+1. **v0.91 ZIP 전체를 새 폴더에 압축 해제**하세요. v0.9 설치기나 차분 파일을 섞지 마세요.
+2. 이전과 같은 정상적인 **게임 1.1.0 원본 cdvdroot**를 지정해 다시 실행하세요. 실패한 패치 결과물을 원본으로 지정하면 안 됩니다.
+3. `완료` 메시지 이후에만 출력한 `atmosphere` 폴더를 복사하세요. 같은 출력 폴더를 지정하면 검증 후 패치 파일 3개를 교체합니다.
+
+Python 3.12와 3.14에서 전체 설치를 확인했습니다. 오류가 계속되면 출력 폴더의 `install_report.json`을 제보에 첨부하세요. 원본 게임·키는 첨부하지 마세요.
+
+v0.9 설치에 이미 성공했다면 게임 파일 내용은 동일하므로 재설치할 필요가 없습니다.
 
 ## 대상 버전
 
@@ -28,13 +41,13 @@
    - 필요한 파일: `RES00.RDB`(약 7.5GB), `RES00.RDI`, `RES10.RDB`
 2. Python 3.10 이상을 설치하고, 이 폴더에서 다음을 실행합니다.
    ```
-   pip install -r installer/requirements.txt
+   python -m pip install -r installer/requirements.txt
    ```
 3. 설치기를 실행합니다(5~10분 걸립니다).
    ```
-   python installer/install.py --romfs <cdvdroot 폴더> --out <출력 폴더>
+   python installer/install.py --romfs "C:\게임원본\cdvdroot" --out "C:\한국어패치결과"
    ```
-   - 디스크 여유 공간이 약 2GB 필요합니다.
+   - ZIP 다운로드·압축 해제 공간 외에 출력 드라이브 여유 공간 약 2GB가 필요합니다.
    - 끝나면 `<출력 폴더>/atmosphere`가 생깁니다.
 4. 결과물을 설치합니다.
    - **Switch(Atmosphère):** `atmosphere` 폴더를 SD 카드 루트에 복사합니다.
