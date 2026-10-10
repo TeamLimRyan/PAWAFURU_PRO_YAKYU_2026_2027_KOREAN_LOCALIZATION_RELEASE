@@ -1,7 +1,9 @@
 {
-  "version": "1.01",
-  "status": "PASS_STATIC_INTEGRATION",
-  "source": {
+  "schema": "pp26-xdelta-v1",
+  "title_id": "01007E8023F36000",
+  "game_version": "1.1.0 (Base 1.0.0 + Update v65536)",
+  "nso_build_id": "FBE18F31CCBD0BFA4247F8A870B6E300BE16889D",
+  "input": {
     "RES00.RDI": {
       "size": 469504,
       "sha256": "EF7DBA93D9BCCB166A4152CD952A0E72A8FC7AF6787300EEF1D3BCB14CCEE16B"
@@ -15,6 +17,11 @@
       "sha256": "B5E18B3984346065F73945644EDAC08FC9312FED7312B700AD7F79F23766EFF3"
     }
   },
+  "tool": {
+    "size": 336896,
+    "sha256": "6E812B38484D0C764291779FADEE83FFBE2ECEACCB4E3A21F8A043A02654A01E"
+  },
+  "version": "1.01",
   "output": {
     "RES00.RDI": {
       "size": 469504,
@@ -30,11 +37,14 @@
     "size": 13793397,
     "sha256": "95D6EA1C45E92D2B38D94649A61ABEF6C0FD9D74677A67B3BC102B8CE7E25F2C"
   },
-  "display_table_entries": 206,
-  "scoped_copies": 55,
-  "optimized_ips_records": 4480,
-  "ips_loader_reads": 16261,
-  "coalesced_image_differences": 0,
-  "homerun_variants": 31,
-  "equipment_variants": 12
+  "patches": {
+    "RES00.RDI": {
+      "size": 23617,
+      "sha256": "242C025393AAF478EAD45C2F88C86FCDD78BED4F0FDD516A519B3667CB7B4D27"
+    },
+    "RES10.RDB": {
+      "size": 1555563544,
+      "sha256": "252ED0EDBE110ACAB902A4ABBC09F237372BE8C599456780F185BB242753E17C"
+    }
+  }
 }

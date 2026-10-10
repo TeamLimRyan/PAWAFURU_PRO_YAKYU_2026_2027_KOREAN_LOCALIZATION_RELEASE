@@ -1,0 +1,24 @@
+{
+  "version": "1.01",
+  "date": "2026-10-10",
+  "status": "OWNER_ACCEPTED",
+  "scope": "All 16 feedback items and public xdelta release",
+  "prior_reviewed_or_accepted": 10,
+  "accepted_in_final_confirmation": 6,
+  "output": {
+    "RES00.RDI": {
+      "size": 469504,
+      "sha256": "C1A055773B70A9530E050B57884EDAA11640CB5CA8D0725AED4B4250A6EE58C0"
+    },
+    "RES10.RDB": {
+      "size": 1735095808,
+      "sha256": "91B8C9FC8C1EC0328F014B9A226DABE6CF1C886C7823534A7C3CE9D28BC459D5"
+    }
+  },
+  "ips": {
+    "name": "FBE18F31CCBD0BFA4247F8A870B6E300BE16889D.ips",
+    "size": 13793397,
+    "sha256": "95D6EA1C45E92D2B38D94649A61ABEF6C0FD9D74677A67B3BC102B8CE7E25F2C"
+  },
+  "automated_coverage": "See qa_summary.md; owner acceptance is separate from automated runtime checks."
+}

@@ -1,0 +1,160 @@
+{
+  "version": "1.0",
+  "result": "PASS",
+  "entries": 2598,
+  "environments": {
+    "py312": {
+      "result": "PASS",
+      "python": "3.12.10",
+      "zlib": "1.3.1",
+      "zstandard": "0.25.0",
+      "stage": "complete",
+      "version": "1.0",
+      "files": {
+        "input/RES00.RDI": {
+          "expected": {
+            "size": 469504,
+            "sha256": "EF7DBA93D9BCCB166A4152CD952A0E72A8FC7AF6787300EEF1D3BCB14CCEE16B"
+          },
+          "actual": {
+            "size": 469504,
+            "sha256": "EF7DBA93D9BCCB166A4152CD952A0E72A8FC7AF6787300EEF1D3BCB14CCEE16B"
+          }
+        },
+        "input/RES00.RDB": {
+          "expected": {
+            "size": 7573791232,
+            "sha256": "59B4872C755C27FFEC5E10528BD65C21DCCA28B8FA40DD4D676BC5D2C005DDEC"
+          },
+          "actual": {
+            "size": 7573791232,
+            "sha256": "59B4872C755C27FFEC5E10528BD65C21DCCA28B8FA40DD4D676BC5D2C005DDEC"
+          }
+        },
+        "input/RES10.RDB": {
+          "expected": {
+            "size": 178927104,
+            "sha256": "B5E18B3984346065F73945644EDAC08FC9312FED7312B700AD7F79F23766EFF3"
+          },
+          "actual": {
+            "size": 178927104,
+            "sha256": "B5E18B3984346065F73945644EDAC08FC9312FED7312B700AD7F79F23766EFF3"
+          }
+        },
+        "output/RES00.RDI": {
+          "expected": {
+            "size": 469504,
+            "sha256": "3366EF0D5901B0FE82DDD0AEB983781FA4E1EBED01BF920C6AAB6942DC139491"
+          },
+          "actual": {
+            "size": 469504,
+            "sha256": "3366EF0D5901B0FE82DDD0AEB983781FA4E1EBED01BF920C6AAB6942DC139491"
+          }
+        },
+        "output/RES10.RDB": {
+          "expected": {
+            "size": 1732013056,
+            "sha256": "D55573C5B6493F539AF3F475CF8E357298F55706C0FDB61A96D28DB23C9ACA38"
+          },
+          "actual": {
+            "size": 1732013056,
+            "sha256": "D55573C5B6493F539AF3F475CF8E357298F55706C0FDB61A96D28DB23C9ACA38"
+          }
+        },
+        "output/IPS": {
+          "expected": {
+            "name": "FBE18F31CCBD0BFA4247F8A870B6E300BE16889D.ips",
+            "size": 12336321,
+            "sha256": "FD8C27EF2EF4D4459202639871CD63FC8A4837B3C0514C77AF7559CE99F08317"
+          },
+          "actual": {
+            "size": 12336321,
+            "sha256": "FD8C27EF2EF4D4459202639871CD63FC8A4837B3C0514C77AF7559CE99F08317"
+          }
+        }
+      },
+      "entry": "SCS_TOP_2026_SSPJ.CHK",
+      "entries_done": 2598
+    },
+    "py314": {
+      "result": "PASS",
+      "python": "3.14.0",
+      "zlib": "1.3.1.zlib-ng",
+      "zstandard": "0.25.0",
+      "stage": "complete",
+      "version": "1.0",
+      "files": {
+        "input/RES00.RDI": {
+          "expected": {
+            "size": 469504,
+            "sha256": "EF7DBA93D9BCCB166A4152CD952A0E72A8FC7AF6787300EEF1D3BCB14CCEE16B"
+          },
+          "actual": {
+            "size": 469504,
+            "sha256": "EF7DBA93D9BCCB166A4152CD952A0E72A8FC7AF6787300EEF1D3BCB14CCEE16B"
+          }
+        },
+        "input/RES00.RDB": {
+          "expected": {
+            "size": 7573791232,
+            "sha256": "59B4872C755C27FFEC5E10528BD65C21DCCA28B8FA40DD4D676BC5D2C005DDEC"
+          },
+          "actual": {
+            "size": 7573791232,
+            "sha256": "59B4872C755C27FFEC5E10528BD65C21DCCA28B8FA40DD4D676BC5D2C005DDEC"
+          }
+        },
+        "input/RES10.RDB": {
+          "expected": {
+            "size": 178927104,
+            "sha256": "B5E18B3984346065F73945644EDAC08FC9312FED7312B700AD7F79F23766EFF3"
+          },
+          "actual": {
+            "size": 178927104,
+            "sha256": "B5E18B3984346065F73945644EDAC08FC9312FED7312B700AD7F79F23766EFF3"
+          }
+        },
+        "output/RES00.RDI": {
+          "expected": {
+            "size": 469504,
+            "sha256": "3366EF0D5901B0FE82DDD0AEB983781FA4E1EBED01BF920C6AAB6942DC139491"
+          },
+          "actual": {
+            "size": 469504,
+            "sha256": "3366EF0D5901B0FE82DDD0AEB983781FA4E1EBED01BF920C6AAB6942DC139491"
+          }
+        },
+        "output/RES10.RDB": {
+          "expected": {
+            "size": 1732013056,
+            "sha256": "D55573C5B6493F539AF3F475CF8E357298F55706C0FDB61A96D28DB23C9ACA38"
+          },
+          "actual": {
+            "size": 1732013056,
+            "sha256": "D55573C5B6493F539AF3F475CF8E357298F55706C0FDB61A96D28DB23C9ACA38"
+          }
+        },
+        "output/IPS": {
+          "expected": {
+            "name": "FBE18F31CCBD0BFA4247F8A870B6E300BE16889D.ips",
+            "size": 12336321,
+            "sha256": "FD8C27EF2EF4D4459202639871CD63FC8A4837B3C0514C77AF7559CE99F08317"
+          },
+          "actual": {
+            "size": 12336321,
+            "sha256": "FD8C27EF2EF4D4459202639871CD63FC8A4837B3C0514C77AF7559CE99F08317"
+          }
+        }
+      },
+      "entry": "SCS_TOP_2026_SSPJ.CHK",
+      "entries_done": 2598
+    }
+  },
+  "regression_tests": {
+    "python_3_12": "7/7 PASS",
+    "python_3_14": "7/7 PASS"
+  },
+  "unicode_space_output_path": "PASS",
+  "documented_removal": "PASS; only three patch files removed, unrelated file preserved",
+  "exact_owner_approved_game_bytes": true
+}
