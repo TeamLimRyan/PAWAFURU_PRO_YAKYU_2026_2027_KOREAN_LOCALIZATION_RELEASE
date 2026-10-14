@@ -1,28 +1,15 @@
 {
   "version": "1.02",
-  "status": "PASS_STATIC_ARM64",
-  "source": {
-    "RES00.RDI": {
-      "size": 469504,
-      "sha256": "EF7DBA93D9BCCB166A4152CD952A0E72A8FC7AF6787300EEF1D3BCB14CCEE16B"
-    },
-    "RES00.RDB": {
-      "size": 7573791232,
-      "sha256": "59B4872C755C27FFEC5E10528BD65C21DCCA28B8FA40DD4D676BC5D2C005DDEC"
-    },
-    "RES10.RDB": {
-      "size": 178927104,
-      "sha256": "B5E18B3984346065F73945644EDAC08FC9312FED7312B700AD7F79F23766EFF3"
-    }
-  },
+  "revision": "20261015-r2",
+  "status": "PASS",
   "output": {
     "RES00.RDI": {
       "size": 469504,
-      "sha256": "C1A055773B70A9530E050B57884EDAA11640CB5CA8D0725AED4B4250A6EE58C0"
+      "sha256": "4E33B836F1CDA81DB06ADA3D35AA4B085130D53EBEA836D7AB5AABEF2F8A04AD"
     },
     "RES10.RDB": {
-      "size": 1735095808,
-      "sha256": "91B8C9FC8C1EC0328F014B9A226DABE6CF1C886C7823534A7C3CE9D28BC459D5"
+      "size": 1737457152,
+      "sha256": "D034D8F84CFEA856F3F797654DC5264073B339B87BEA7D989430D662597F72B7"
     }
   },
   "ips": {
@@ -30,10 +17,8 @@
     "size": 13793417,
     "sha256": "2653E6DAA756F41C53C3C0088395B7C544752DF04FF8E4C003D0676CAEEDFEA0"
   },
-  "instruction_cases": 36,
-  "address_layout_conditions": 2,
-  "allowed_changed_bytes": 129,
-  "all_other_module_bytes_unchanged": true,
-  "deterministic_build": "PASS",
-  "romfs_payload": "Byte-identical to v1.01"
+  "native_homerun_models": 15,
+  "title_textures": 2,
+  "bc1_alpha_regression": "PASS",
+  "unchanged_nso_from_initial_v102": true
 }
