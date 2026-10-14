@@ -1,6 +1,6 @@
 {
-  "version": "1.01",
-  "status": "PASS_STATIC_INTEGRATION",
+  "version": "1.02",
+  "status": "PASS_STATIC_ARM64",
   "source": {
     "RES00.RDI": {
       "size": 469504,
@@ -27,14 +27,13 @@
   },
   "ips": {
     "name": "FBE18F31CCBD0BFA4247F8A870B6E300BE16889D.ips",
-    "size": 13793397,
-    "sha256": "95D6EA1C45E92D2B38D94649A61ABEF6C0FD9D74677A67B3BC102B8CE7E25F2C"
+    "size": 13793417,
+    "sha256": "2653E6DAA756F41C53C3C0088395B7C544752DF04FF8E4C003D0676CAEEDFEA0"
   },
-  "display_table_entries": 206,
-  "scoped_copies": 55,
-  "optimized_ips_records": 4480,
-  "ips_loader_reads": 16261,
-  "coalesced_image_differences": 0,
-  "homerun_variants": 31,
-  "equipment_variants": 12
+  "instruction_cases": 36,
+  "address_layout_conditions": 2,
+  "allowed_changed_bytes": 129,
+  "all_other_module_bytes_unchanged": true,
+  "deterministic_build": "PASS",
+  "romfs_payload": "Byte-identical to v1.01"
 }
