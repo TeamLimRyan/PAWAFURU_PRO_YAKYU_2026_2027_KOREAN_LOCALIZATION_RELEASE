@@ -1,0 +1,41 @@
+{
+  "version": "1.02",
+  "format": "xdelta/VCDIFF + IPS",
+  "roundtrip": "PASS",
+  "windows_powershell_5_1_full_install": "PASS",
+  "unicode_and_space_path": "PASS",
+  "xdelta_environment_isolation": "PASS",
+  "regression": [
+    {
+      "case": "existing_output_rejected_without_changes",
+      "pass": true
+    },
+    {
+      "case": "same_size_wrong_source_hash_rejected",
+      "pass": true
+    }
+  ],
+  "verified_output_files": 3,
+  "owner_acceptance": {
+    "date": "2026-10-15",
+    "status": "OWNER_ACCEPTED",
+    "additional_feedback_items": 3,
+    "save_report": "Locally not reproduced; owner accepted. No save-specific code fix."
+  },
+  "revision": "20261015-r2",
+  "output": {
+    "RES00.RDI": {
+      "size": 469504,
+      "sha256": "4E33B836F1CDA81DB06ADA3D35AA4B085130D53EBEA836D7AB5AABEF2F8A04AD"
+    },
+    "RES10.RDB": {
+      "size": 1737457152,
+      "sha256": "D034D8F84CFEA856F3F797654DC5264073B339B87BEA7D989430D662597F72B7"
+    }
+  },
+  "ips": {
+    "name": "FBE18F31CCBD0BFA4247F8A870B6E300BE16889D.ips",
+    "size": 13793417,
+    "sha256": "2653E6DAA756F41C53C3C0088395B7C544752DF04FF8E4C003D0676CAEEDFEA0"
+  }
+}

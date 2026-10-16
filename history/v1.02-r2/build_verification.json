@@ -1,0 +1,24 @@
+{
+  "version": "1.02",
+  "revision": "20261015-r2",
+  "status": "PASS",
+  "output": {
+    "RES00.RDI": {
+      "size": 469504,
+      "sha256": "4E33B836F1CDA81DB06ADA3D35AA4B085130D53EBEA836D7AB5AABEF2F8A04AD"
+    },
+    "RES10.RDB": {
+      "size": 1737457152,
+      "sha256": "D034D8F84CFEA856F3F797654DC5264073B339B87BEA7D989430D662597F72B7"
+    }
+  },
+  "ips": {
+    "name": "FBE18F31CCBD0BFA4247F8A870B6E300BE16889D.ips",
+    "size": 13793417,
+    "sha256": "2653E6DAA756F41C53C3C0088395B7C544752DF04FF8E4C003D0676CAEEDFEA0"
+  },
+  "native_homerun_models": 15,
+  "title_textures": 2,
+  "bc1_alpha_regression": "PASS",
+  "unchanged_nso_from_initial_v102": true
+}
