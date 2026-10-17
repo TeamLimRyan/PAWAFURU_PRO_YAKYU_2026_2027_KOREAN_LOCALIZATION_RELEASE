@@ -1,9 +1,10 @@
-# 파워풀 프로야구 2026-2027 한국어 패치 v1.03 — xdelta판
+# 파워풀 프로야구 2026-2027 한국어 패치 v1.04 — xdelta판
 
 Nintendo Switch 일본판 **Base 1.0.0 + Update 1.1.0 (v65536)** 전용입니다.
 Title ID: `01007E8023F36000`. 다른 지역판·게임 버전은 지원하지 않습니다.
 
-v1.03: 영관나인 엔트리 표시와 석세스 장소명 오류를 수정했습니다. v1.02 교체본의 이미지 수정을 포함합니다.
+v1.04: 어레인지의 일본어 기본 팀 이름, 홈런 배틀 로고와 선택지 표현을 수정했습니다.
+홈런 3D 글자의 금색 입체면과 명암을 다시 구성하고, 설정·도움말의 참조 영역과 설치 검사를 보강했습니다.
 이전 패치 사용자는 **수정하지 않은 1.1.0 원본에서 새로 적용**해 주세요.
 이전 한국어 패치 결과물을 xdelta의 원본 입력으로 사용하면 안 됩니다.
 
@@ -32,7 +33,7 @@ powershell -NoProfile -ExecutionPolicy Bypass -File .\apply_xdelta.ps1 -Romfs "C
 - Eden 등 에뮬레이터: 출력의 `atmosphere/exefs_patches/pp26_ko/*.ips`를 모드의 `exefs/`에,
   `atmosphere/contents/01007E8023F36000/romfs/cdvdroot/` 아래 두 파일을 모드의 `romfs/cdvdroot/`에 복사합니다.
 
-**RDI·RDB·IPS 세 파일을 함께 교체**하고, 이전 한국어 모드를 중복 활성화하지 마세요.
+**RDI·RDB·IPS 세 파일을 함께 교체**하고, 이전 한국어 모드는 모드 경로 밖에 백업한 뒤 새 버전 하나만 활성화하세요.
 기존 세이브를 삭제할 필요는 없습니다. 사용자 지정 이름은 유지됩니다.
 
 ## 수동 적용
@@ -66,9 +67,8 @@ Switch에서는 다음 3파일만 제거합니다. 원본 게임과 세이브는
 
 ## 검증 및 라이선스
 
-2026-10-16 배포 요청을 반영했습니다. 이번 수정의 ARM64 검증 164건은 통과했으며 실제 게임 화면의 추가 검증은 미실시입니다. 상세 범위는
-`qa_summary.md`, 설치 검증은 `xdelta_verification.json`에 기록합니다.
-`checksums.sha256`은 패키지 파일 체크섬입니다. 알려진 범위는 `KNOWN_ISSUES.md`를 참고하세요.
+검증 범위는 `qa_summary.md`, 원본 복원 및 설치 검사는 `xdelta_verification.json`에 기록합니다.
+`checksums.sha256`은 패키지 파일 체크섬입니다. 알려진 제한은 `KNOWN_ISSUES.md`를 참고하세요.
 
 한국어 글꼴은 Noto Sans CJK(OFL), 동봉 xdelta3는 Joshua MacDonald의 공식 v3.2.0
 Windows x64 바이너리(Apache-2.0)입니다. `licenses/` 및 `tools/PROVENANCE.md`에
@@ -76,7 +76,7 @@ Windows x64 바이너리(Apache-2.0)입니다. `licenses/` 및 `tools/PROVENANCE
 
 ## 설치 상태 확인
 
-이 패키지는 v1.03입니다. 이전 패치 사용자는 원본에서 적용한 RDI·RDB·IPS를 함께 교체하세요.
+이 패키지는 v1.04입니다. 이전 패치 사용자는 원본에서 적용한 RDI·RDB·IPS를 함께 교체하세요.
 설치 후 일본어가 보이거나 이전 패치가 의심될 때에는 다음 명령으로 설치된 파일을 읽기 전용 검사할 수 있습니다.
 
 ```powershell
@@ -84,5 +84,9 @@ powershell -NoProfile -ExecutionPolicy Bypass -File .\verify_installed.ps1 -Inst
 ```
 
 에뮬레이터에서는 `exefs`와 `romfs`가 들어 있는 모드 폴더, Switch에서는 SD 루트 또는 `atmosphere` 폴더를 지정합니다.
+새 검사기는 파일 3개의 크기·해시와 함께 같은 게임의 다른 모드 폴더 및 Atmosphère 패치 경로에서
+경쟁하는 IPS·ROMFS와 실행 파일 덮어쓰기를 확인합니다. 파일을 자동 삭제하거나 이동하지 않습니다.
+에뮬레이터의 일반적인 `load/01007E8023F36000/모드이름` 경로를 권장합니다. 다른 배치에서는
+`-ModSearchRoot`로 해당 모드 폴더의 직접 상위 폴더를 지정하세요.
 검사 결과가 PASS여도 에뮬레이터에서 해당 모드가 활성화되어 있는지 별도로 확인하세요. 이 검사는 세이브를 읽거나 변경하지 않습니다.
 세이브를 불러온 뒤 특정 문구가 일본어로 보이면 모드·화면·발생 순서를 함께 제보해 주세요. 기존 세이브는 삭제하지 마세요.

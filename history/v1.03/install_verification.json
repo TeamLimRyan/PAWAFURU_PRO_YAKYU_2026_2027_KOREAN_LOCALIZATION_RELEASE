@@ -1,0 +1,50 @@
+{
+  "version": "1.03",
+  "format": "xdelta/VCDIFF + IPS",
+  "roundtrip": "PASS",
+  "windows_powershell_5_1_full_install": "PASS",
+  "verify_installed_script": "PASS",
+  "unicode_and_space_path": "PASS",
+  "xdelta_environment_isolation": "PASS",
+  "regression": [
+    {
+      "case": "existing_output_rejected_without_changes",
+      "pass": true
+    },
+    {
+      "case": "same_size_wrong_source_hash_rejected",
+      "pass": true
+    }
+  ],
+  "verified_output_files": 3,
+  "publication_authorization": {
+    "date": "2026-10-16",
+    "type": "EXPLICIT_PUBLICATION_AUTHORIZATION",
+    "statement": "새 버전 배포해",
+    "version": "1.03",
+    "hardware_verification_claimed": false,
+    "unresolved": [
+      "FB24"
+    ]
+  },
+  "game_runtime": "NOT_RUN",
+  "static_arm64_cases": 164,
+  "unresolved": [
+    "FB24"
+  ],
+  "output": {
+    "RES00.RDI": {
+      "size": 469504,
+      "sha256": "4E33B836F1CDA81DB06ADA3D35AA4B085130D53EBEA836D7AB5AABEF2F8A04AD"
+    },
+    "RES10.RDB": {
+      "size": 1737457152,
+      "sha256": "D034D8F84CFEA856F3F797654DC5264073B339B87BEA7D989430D662597F72B7"
+    }
+  },
+  "ips": {
+    "name": "FBE18F31CCBD0BFA4247F8A870B6E300BE16889D.ips",
+    "size": 13793694,
+    "sha256": "4D463AAC4DC43E8926E4698EA146149FD594727DA80422E22643EFE65DF30DA5"
+  }
+}
