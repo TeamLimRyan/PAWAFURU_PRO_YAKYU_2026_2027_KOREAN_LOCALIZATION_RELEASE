@@ -1,44 +1,10 @@
 {
-  "version": "1.04",
-  "format": "xdelta/VCDIFF + IPS",
-  "roundtrip": "PASS",
-  "windows_powershell_5_1_full_install": "PASS",
-  "verify_installed_script": "PASS",
-  "unicode_and_space_path": "PASS",
-  "xdelta_environment_isolation": "PASS",
-  "regression": [
-    {
-      "case": "existing_output_rejected_without_changes",
-      "pass": true
-    },
-    {
-      "case": "same_size_wrong_source_hash_rejected",
-      "pass": true
-    }
-  ],
-  "verified_output_files": 3,
-  "publication_authorized": true,
-  "game_runtime": "PASS_SCOPED_QA",
-  "homerun_video_review": "PASS",
-  "static_team_title_cases": 28,
-  "upgrade_states": 37,
-  "unresolved": [
-    "FB24"
-  ],
-  "output": {
-    "RES00.RDI": {
-      "size": 469504,
-      "sha256": "1ED30D1AA72AE7420315FE3491C76455AEB01A1D6B9C561DB8A5501C9BEBF4EB"
-    },
-    "RES10.RDB": {
-      "size": 1737851392,
-      "sha256": "367484ADDEC99979E4C47D7CF256F0648A64AD364BD03D9BC781DA8CBE008F61"
-    }
-  },
-  "ips": {
-    "name": "FBE18F31CCBD0BFA4247F8A870B6E300BE16889D.ips",
-    "size": 13794689,
-    "sha256": "887283E45BE1049B464048554DFEA1E666720B8C7B3F267381173C93496C2379"
-  },
-  "publication_date": "2026-10-17"
+  "version": "1.05",
+  "status": "PASS",
+  "xdelta_roundtrips": 2,
+  "installer_checks": 4,
+  "final_installed_files": 3,
+  "unchanged_install_code_and_romfs_delta_checks_reused": true,
+  "original_save_files": 22,
+  "original_saves_unchanged": true
 }
